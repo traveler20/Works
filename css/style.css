@@ -117,6 +117,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 540px;
+	background-image: url(../img/fv.png);
 }
 
 .logo-name {
