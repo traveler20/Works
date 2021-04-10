@@ -118,6 +118,7 @@ body {
 	justify-content: center;
 	height: 540px;
 	background-image: url(../img/fv.png);
+	background-size: cover;
 }
 
 .logo-name {
