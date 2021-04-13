@@ -121,6 +121,17 @@ body,
 	background-image: url(../img/fv.png);
 	background-size: cover;
 }
+/* scale-animation */
+.js-scale {
+	opacity: 0;
+	transform: scale(1.1);
+	transition: opacity 0.8s ease-out, transform 1.8s ease-out;
+}
+/* add active for scale-animation */
+.js-scale.js-active {
+	opacity: 1;
+	transform: scale(1);
+}
 
 .logo-name {
 	font-family: "Noto sans", cursive;
