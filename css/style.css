@@ -83,7 +83,8 @@ body {
 	background-color: #333333;
 }
 /*ページネーション*/
-body {
+body,
+.fadein {
 	animation: fadeIn 2.9s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 @keyframes fadeIn {
