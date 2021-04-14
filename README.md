@@ -6,6 +6,9 @@ The portfolio was created with HTML, CSS, JavaScript.
 
 jQuery uses a plug-in called PhotoSwipe, and the JavaScript implements a pseudo password function and an animation function.
 
+[portfolio url](https://traveler20.github.io/portfolio/ "portfolio")
+
+***
 
 # 業務経歴
 
@@ -58,13 +61,13 @@ jQuery uses a plug-in called PhotoSwipe, and the JavaScript implements a pseudo 
 
 ### 大手印刷会社 EC サイトのコーディング・運用【HTML/CSS/JavaScript/jQuery/PHP】(2020 年〜2021 年)
 
-【プロジェクト概要】大手印刷会社 EC サイトのコーディング・運用等を担当
+**【プロジェクト概要】**大手印刷会社 EC サイトのコーディング・運用等を担当
 
-【担当業務】新規ページのコーディングや既存ページの改善など。具体的には下記。
+**【担当業務】**新規ページのコーディングや既存ページの改善など。具体的には下記。
 
 - HTML/CSS/JavaScript を用いたサイトコーディング
 - 既存サイトの改善・リニューアル
 - GoogleAnalytics によるクリック率解析
 - アイコン等の作成
 
-【発揮したバリュー】コーディングの際、同時に GoogleAnalytics を運用しクリック率の解析などを行い、コーディングしたサイトの分析まで実施。クリック率の改善やサイトの UX 改善につなげた。
+**【発揮したバリュー】**コーディングの際、同時に GoogleAnalytics を運用しクリック率の解析などを行い、コーディングしたサイトの分析まで実施。クリック率の改善やサイトの UX 改善につなげた。
