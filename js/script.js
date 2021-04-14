@@ -1,11 +1,3 @@
-// scale-animation
-window.onload = function () {
-	document.getElementById("header").classList.add("js-active");
-};
-
-// PhotoSwipe
-initPhotoSwipeFromDOM(".js-my-gallery");
-
 $(function () {
 	//Worksのリンクを有効化
 	//スライド（Swiper）内に記載のリンクを有効にするため下記の記述が必要
