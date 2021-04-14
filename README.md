@@ -16,7 +16,7 @@ jQuery uses a plug-in called PhotoSwipe, and the JavaScript implements a pseudo 
 | 名前       | traveler20                                               |
 | 場所       | 大阪府                                                   |
 | WEB サイト | [CareerLOG](https://yurukei-career.com)                  |
-| Twitter    | [@poly_soft](https://twitter.com/yurukei20)              |
+| Twitter    | [@yurukei20](https://twitter.com/yurukei20)              |
 | Zenn       | [@yurukei20](https://zenn.dev/yurukei20)                 |
 | その他     | [ポートフォリオ](https://traveler20.github.io/portfolio) |
 
