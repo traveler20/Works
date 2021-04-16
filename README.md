@@ -25,8 +25,12 @@ https://traveler20.github.io/portfolio/
 
 ## 概要
 
+大手印刷会社の印刷ECサイトのサイトコーディング、フロントエンド実装、アイコン・バナー制作と幅広いWEBデザイン業務に従事。
+
+Illustratorによるアイコン制作から新規サイトのコーディング、PHPによるタイマー設定までWEBサイト制作・運用の一貫した工程を経験している。
+
 - デザイン・コーディング業務を経験。
-- GoogleAnalytics を活用したクリック率解析などの実装も可能。
+- GoogleAnalytics を活用したクリック率解析などの実装も経験。
 
 ## スキル
 
@@ -51,6 +55,9 @@ https://traveler20.github.io/portfolio/
 - teraterm
 - Apache
 - Adobe illustrator
+- GoogleAnalytics
+- GoogleSearchConsole
+- GoogleAdsense
 
 ## バリューを発揮しやすい業務
 
