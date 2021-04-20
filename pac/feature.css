@@ -86,8 +86,11 @@
 	margin: 30px auto 30px auto;
 }
 .features-description img {
-	margin: 0 0 20px 0;
+	margin: 0 auto 20px auto;
+	max-width: 60%;
+	height: auto;
 }
+
 /*--------------------------------
  Others
 ---------------------------------*/
@@ -138,6 +141,13 @@
 	}
 	.ex-title {
 		font-size: 10px;
+	}
+
+	/* feature */
+	.features-description img {
+		margin: 0 auto 20px auto;
+		max-width: 100%;
+		height: auto;
 	}
 
 	/* others */
