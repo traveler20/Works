@@ -1,3 +1,6 @@
+.section {
+	padding: 0px 0;
+}
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
@@ -6,7 +9,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 200px;
-	background-image: url(../img/fv.jpg);
+	background-image: url(../img/fv.png);
 }
 
 .logo-name {
@@ -113,6 +116,10 @@
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
+	.section {
+		padding: 0px 0;
+	}
+
 	/* ヘッダー */
 	.sub-header {
 		height: 20vh;
