@@ -8,6 +8,8 @@ jQuery uses a plug-in called PhotoSwipe, and the JavaScript implements a pseudo 
 
 https://traveler20.github.io/portfolio/
 
+https://traveler20.site/portfolio/
+
 ***
 
 # 業務経歴
@@ -21,7 +23,7 @@ https://traveler20.github.io/portfolio/
 | WEB サイト | [CareerLOG](https://yurukei-career.com)                  |
 | Twitter    | [@yurukei20](https://twitter.com/yurukei20)              |
 | Zenn       | [@yurukei20](https://zenn.dev/yurukei20)                 |
-| その他     | [ポートフォリオ](https://traveler20.github.io/portfolio) |
+| その他     | [ポートフォリオ](https://traveler20.site/portfolio/) |
 
 ## 概要
 
