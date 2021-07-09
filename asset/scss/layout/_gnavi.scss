@@ -5,24 +5,23 @@
 	z-index: 1;
 	font-family: "Cormorant Garamond", serif;
 	padding: 10px;
-}
+	&-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
-.gnav-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+	&-item {
+		padding: 0 30px;
+	}
 
-.gnav-item {
-	padding: 0 30px;
-}
-
-.gnav-link {
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	text-transform: lowercase;
-	color: #ffffff;
+	&-link {
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-transform: lowercase;
+		color: #ffffff;
+	}
 }
 
 /* iOS対策 */
@@ -63,9 +62,8 @@
 
 	.gnav-link {
 		font-size: 12px;
-	}
-
-	.gnav-link:hover {
-		opacity: 1;
+		&:hover {
+			opacity: 1;
+		}
 	}
 }

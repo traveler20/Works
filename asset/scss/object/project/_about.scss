@@ -3,9 +3,9 @@
 ---------------------------------*/
 .about-section {
 	background-color: #222222;
-}
-.about-section .inner {
-	max-width: 1000px;
+	.inner {
+		max-width: 1000px;
+	}
 }
 
 .about-item {
@@ -21,10 +21,9 @@
 
 .about-body {
 	flex: 1;
-}
-
-.about-body p:not(:last-child) {
-	margin-bottom: 20px;
+	p:not(:last-child) {
+		margin-bottom: 20px;
+	}
 }
 
 @include breakpoint(tablet) {

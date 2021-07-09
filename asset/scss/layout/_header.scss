@@ -34,25 +34,24 @@
 
 .logo {
 	text-align: center;
-}
+	&-title {
+		font-family: "Lora", serif;
+		/* CormorantGaramond, */
+		font-size: 88px;
+		font-weight: normal;
+		line-height: 1;
+		display: block;
+		letter-spacing: 0.1em;
+		color: #60caad;
+	}
 
-.logo-title {
-	font-family: "Lora", serif;
-	/* CormorantGaramond, */
-	font-size: 88px;
-	font-weight: normal;
-	line-height: 1;
-	display: block;
-	letter-spacing: 0.1em;
-	color: #60caad;
-}
-
-.logo-text {
-	font-size: 14px;
-	display: block;
-	margin-top: 10px;
-	text-align: center;
-	letter-spacing: 0.2em;
+	&-text {
+		font-size: 14px;
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+		letter-spacing: 0.2em;
+	}
 }
 
 @include breakpoint(tablet) {

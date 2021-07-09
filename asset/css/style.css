@@ -484,8 +484,7 @@ li {
   letter-spacing: 0.3em;
 }
 
-.rate:before,
-.rate:after {
+.rate:before, .rate:after {
   position: absolute;
   top: 0;
   left: 0;
