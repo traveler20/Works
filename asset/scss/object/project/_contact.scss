@@ -1,0 +1,42 @@
+/*--------------------------------
+ Contact
+---------------------------------*/
+.contact-list {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.contact-item {
+	width: 100px;
+	margin: 0 20px;
+	text-align: center;
+}
+
+.contact-name {
+	font-size: 12px;
+	display: block;
+	margin-top: 5px;
+	color: #ffffff;
+}
+
+.contact-image {
+	width: 50px;
+}
+
+.contact-text {
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+@include breakpoint(tablet) {
+	/* Contact */
+	.contact-item {
+		width: 70px;
+	}
+}
+@include breakpoint(sp) {
+}
