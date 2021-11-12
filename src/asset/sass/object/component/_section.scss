@@ -23,6 +23,7 @@
 		font-weight: 700;
 		letter-spacing: 8px;
 		margin: 0 auto 12px;
+		@include s.garamond(bold);
 	}
 	&__lead {
 		display: table;
