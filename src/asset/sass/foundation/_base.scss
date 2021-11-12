@@ -35,11 +35,11 @@ body {
 }
 
 // 高速化検証したが、スクロール時バグ続出のため一旦コメントアウト
-// section,
-// footer {
-// 	content-visibility: auto;
-// 	contain-intrinsic-size: 100vh;
-// }
+section,
+footer {
+	content-visibility: auto;
+	contain-intrinsic-size: 300px;
+}
 
 img,
 video,
@@ -60,10 +60,10 @@ a:hover {
 a:hover img {
 	text-decoration: none;
 	opacity: 0.8;
-	transition: s.$transition400ms;
+	transition: s.$transition-base;
 }
 a,
 label,
 input {
-	transition: s.$transition400ms;
+	transition: s.$transition-base;
 }

@@ -1,26 +1,18 @@
-// system
-// ---------------------------
+/* system
+--------------------------- */
 
 // color system
 // ---------------------
-// $c-main: #333;
 $c-base: #333;
 $c-base-sub: #222;
 $c-base-dark: #000; // footer only
 $c-base-right: #999;
 $c-body: #fff;
 $c-accent: #ca6060;
-$c-accent-right: rgba(
-	$color: $c-accent,
-	$alpha: 0.3,
-);
 
-$c-gray-right: #e9e9e9;
-$c-gray-dark: #9da5a0;
+$transition-base: all 0.4s;
 
-$transition400ms: all 0.4s;
-
-// responsive system
+// font system
 // ---------------------
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 @mixin railway($weight: bold) {
@@ -28,21 +20,8 @@ $transition400ms: all 0.4s;
 	font-weight: $weight;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@mixin cursive($weight: 700) {
-	font-family: "Dancing Script", cursive;
-	font-weight: $weight;
-}
-
-@function get_vw($size, $viewport: 375) {
-	$rate: 100 / $viewport;
-	@return $rate * $size * 1vw;
-}
-@mixin font-size($font_size: 10) {
-	font-size: $font_size * 1px;
-	font-size: get_vw($font_size);
-}
-
+// responsive system
+// ---------------------
 @mixin breakpoint($point) {
 	@if $point == tablet {
 		@media (min-width: 640px) {
@@ -65,51 +44,4 @@ $transition400ms: all 0.4s;
 	.pc-only {
 		display: inline-block;
 	}
-}
-
-// icomoon system
-// ---------------------
-@font-face {
-	font-family: "icomoon";
-	src: url("./../img/fonts/icomoon.eot?qcbrmy");
-	src: url("./../img/fonts/icomoon.eot?qcbrmy#iefix")
-			format("embedded-opentype"),
-		url("./../img/fonts/icomoon.ttf?qcbrmy") format("truetype"),
-		url("./../img/fonts/icomoon.woff?qcbrmy") format("woff"),
-		url("./../img/fonts/icomoon.svg?qcbrmy#icomoon") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
-}
-
-[class^="icon-"],
-[class*=" icon-"] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: "icomoon" !important;
-	speak: never;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-twitter:before {
-	content: "\e900";
-	color: #1da1f2;
-}
-.icon-home3:before {
-	content: "\e902";
-}
-.icon-facebook:before {
-	content: "\ea90";
-	color: #1877f2;
-}
-.icon-instagram:before {
-	content: "\ea92";
-	color: #cf2e92;
 }
