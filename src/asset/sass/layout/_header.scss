@@ -18,12 +18,12 @@
 		display: block;
 		line-height: 1;
 		&:first-of-type {
-			color: #999;
+			color: s.$c-base-right;
 			font-size: 2.8rem;
 			font-family: cursive;
 		}
 		&:nth-of-type(2) {
-			color: #ca6060;
+			color: s.$c-accent;
 			font-size: 4rem;
 			font-family: Lora, serif;
 			margin: 10px auto 20px;

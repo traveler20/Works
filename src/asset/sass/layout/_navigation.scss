@@ -5,7 +5,7 @@
 .l-navigation {
 	position: sticky;
 	top: 0;
-	background-color: #333;
+	background-color: s.$c-base;
 	z-index: 1;
 	&__lists {
 		display: flex;
@@ -16,7 +16,7 @@
 	&__list {
 		padding: 5px 32px;
 		a {
-			color: #fff;
+			color: s.$c-body;
 		}
 	}
 

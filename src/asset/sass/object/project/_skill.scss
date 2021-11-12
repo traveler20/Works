@@ -24,7 +24,7 @@
 		z-index: 0;
 		display: inline-block;
 		white-space: nowrap;
-		color: #999;
+		color: s.$c-base-right;
 		&:after,
 		&:before {
 			content: "★★★★★";
@@ -36,7 +36,7 @@
 			left: 0;
 			overflow: hidden;
 			white-space: nowrap;
-			color: #ca6060;
+			color: s.$c-accent;
 		}
 		&[data-rate="5"]:after {
 			width: 100%;

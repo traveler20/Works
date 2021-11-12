@@ -3,10 +3,10 @@
 @use "./../../foundation/system" as s;
 
 .c-section {
-	background-color: #333;
+	background-color: s.$c-base;
 	padding: 120px 0;
 	&:nth-of-type(even) {
-		background-color: #222;
+		background-color: s.$c-base-sub;
 	}
 	&:last-of-type {
 		margin-bottom: 0;
@@ -17,7 +17,7 @@
 		margin: 0 auto;
 	}
 	&__title {
-		color: #ca6060;
+		color: s.$c-accent;
 		text-align: center;
 		font-size: 3.6rem;
 		font-weight: 700;
