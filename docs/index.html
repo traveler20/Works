@@ -1,116 +1,337 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
-		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ogp -->
+		<!-- css -->
+		<link rel="stylesheet" href="./asset/css/style.css" />
 		<title>Document</title>
 	</head>
-	<body>
+	<body class="vsc-initialized" cz-shortcut-listen="true">
 		<!-- .l-header -->
 		<header class="l-header">
-			<h1 class="l-header__title">
-				<span>traveler20’s</span>
-				<span>PORTFOLIO</span>
-				<span>traveler20のポートフォリオ</span>
+			<h1>
+				<span class="l-header__title">traveler20’s</span>
+				<span class="l-header__title">PORTFOLIO</span>
+				<span class="l-header__title">traveler20のポートフォリオ</span>
 			</h1>
 		</header>
 		<!-- /.l-header -->
 
-		<!-- .l-nav -->
-		<nav class="l-nav">
-			<ul class="l-nav__lists">
-				<li class="l-nav__list"><a href=""></a></li>
-				<li class="l-nav__list"><a href=""></a></li>
-				<li class="l-nav__list"><a href=""></a></li>
-				<li class="l-nav__list"><a href=""></a></li>
-				<li class="l-nav__list"><a href=""></a></li>
+		<!-- .l-navigation -->
+		<nav class="l-navigation">
+			<ul class="l-navigation__lists">
+				<li class="l-navigation__list">
+					<a href="#skill">skill</a>
+				</li>
+				<li class="l-navigation__list">
+					<a href="#feature">feature</a>
+				</li>
+				<li class="l-navigation__list">
+					<a href="#work">work</a>
+				</li>
+				<li class="l-navigation__list">
+					<a href="#about">about</a>
+				</li>
+				<li class="l-navigation__list">
+					<a href="#contact">contact</a>
+				</li>
 			</ul>
 		</nav>
-		<!-- /.l-nav -->
+		<!-- /.l-navigation -->
 
-		<!-- .l-main -->
-		<main class="l-main">
+		<!-- main -->
+		<main>
 			<!-- .p-skill -->
-			<section class="p-skill c-section">
+			<section id="skill" class="p-skill c-section">
 				<div class="c-section__inner">
-					<h2 class="c-section__title"></h2>
-					<p class="c-section__lead"></p>
+					<h2 class="c-section__title">skill</h2>
+					<p class="c-section__lead">
+						毎日<a href="https://github.com/traveler20">GitHub</a
+						>へのコミットやグラフィックデザインの学習をしています！
+					</p>
 					<ul class="p-skill__lists">
-						<li class="p-skill__list"></li>
-						<li class="p-skill__list"></li>
-						<li class="p-skill__list"></li>
-						<li class="p-skill__list"></li>
-						<li class="p-skill__list"></li>
-						<li class="p-skill__list"></li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>HTML</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="5"></div>
+									<p>
+										このサイトのようなコーディングが可能です。HTML/CSS/JavaScriptでスライドやアコーディオン等の機能を実装することも可能。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>CSS</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="5"></div>
+									<p>
+										CSSを用いたサイトデザインが可能。マウスカーソルやスクロールバー等のスタイリングも実装経験あり。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>JavaScript</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="3"></div>
+									<p>
+										オブジェクトにアニメーションなどの動きをつけることが可能。また、簡易なWebアプリケーションの作成もできます。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>PHP</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="3"></div>
+									<p>
+										HTMLに組み込んでタイマー設定や自動キャッシュ対策の実装が可能です。DBとの接続については学習中。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>WordPress</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="4"></div>
+									<p>
+										WordPressを用いたサイト制作・運用が可能です。サーバやドメインの設定からサイトの運用、LPの組み込みまで経験があります。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>photoshop/illustrator</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="3"></div>
+									<p>
+										アイコンやバナーの作成が可能。また、デザイナーのコミュニティにてIllustratorでアイコンを制作する勉強会を主催した経験あり。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>XD/Figma</dt>
+								<dd>
+									<div class="p-skill__rate" data-rate="4"></div>
+									<p>
+										WEBサイトのデザインカンプ作成経験あり。UI/UXを配慮したデザインが可能です。またコーディングまで一貫した業務経験があります。
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="p-skill__list">
+							<img
+								src="./asset/img/skill/icon_html5.svg"
+								alt=""
+								class="p-skill__icon"
+							/>
+							<dl class="p-skill__description">
+								<dt>Passion</dt>
+								<dd>
+									<div class="p-skill__rate--ten" data-rate="5"></div>
+									<p>毎日学習しています！！</p>
+								</dd>
+							</dl>
+						</li>
 					</ul>
 				</div>
 			</section>
 			<!-- /.p-skill -->
 
 			<!-- .p-feature -->
-			<section class="p-feature c-section">
+			<section id="feature" class="p-feature c-section">
 				<div class="c-section__inner">
-					<h2 class="c-section__title"></h2>
-					<p class="c-section__lead"></p>
+					<h2 class="c-section__title">feature</h2>
+					<p class="c-section__lead">
+						最新の制作実績になります。詳細は<a href="#contact">お問合せ</a
+						>からどうぞ。
+					</p>
 					<figure class="p-feature__figure">
-						<img src="" alt="" />
-						<figcaption class="p-feature__figcaption"></figcaption>
+						<img
+							src="./asset/img/feature/side-business_trendboost.webp"
+							class="p-feature__image"
+							alt=""
+						/>
+						<figcaption class="p-feature__figcaption">
+							<h3>広告代理店のLP制作</h3>
+							<dl>
+								<dt>使用言語：</dt>
+								<dd>HTML/CSS/JavaScript/PHP（WordPress）</dd>
+							</dl>
+							<dl>
+								<dt>チーム編成/自身の担当：</dt>
+								<dd>1人/ヒアリング,デザイン,コーディング,WordPress組み込み</dd>
+							</dl>
+							<dl>
+								<dt>制作期間：</dt>
+								<dd>
+									1ヶ月（ヒアリング,デザイン,コーディング,組み込み,各1週間）
+								</dd>
+							</dl>
+							<dl>
+								<dt>コメント：</dt>
+								<dd>
+									スタートアップ企業のTwitterに特化した広告運用サービス「TrendBoost」のLPを制作しました。
+								</dd>
+							</dl>
+						</figcaption>
 					</figure>
 				</div>
 			</section>
 			<!-- /.p-feature -->
 
 			<!-- .p-work -->
-			<section class="p-work c-section">
+			<section id="work" class="p-work c-section">
 				<div class="c-section__inner">
-					<h2 class="c-section__title"></h2>
-					<p class="c-section__lead"></p>
-					<ul class="p-work__lits">
-						<li class="p-work__list"></li>
-						<li class="p-work__list"></li>
-						<li class="p-work__list"></li>
-						<li class="p-work__list"></li>
-						<li class="p-work__list"></li>
-						<li class="p-work__list"></li>
+					<h2 class="c-section__title">work</h2>
+					<p class="c-section__lead">その他の制作実績になります。</p>
+					<ul class="p-work__lists">
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
+						<li class="p-work__list">
+							<img
+								class="p-work__img"
+								src="./asset/img/work/cording_lp-plant.webp"
+								alt=""
+							/>
+						</li>
 					</ul>
 				</div>
 			</section>
 			<!-- /.p-work -->
 
 			<!-- .p-about -->
-			<section class="p-about c-section">
+			<section id="about" class="p-about c-section">
 				<div class="c-section__inner">
-					<h2 class="c-section__title"></h2>
-					<p class="c-section__lead"></p>
+					<h2 class="c-section__title">about</h2>
+					<p class="c-section__lead">こんにちは！traveler20です。</p>
 					<figure class="p-about__figure">
-						<img src="" alt="" />
-						<figcaption class="p-about__figcaption"></figcaption>
+						<img
+							src="./asset/img/about/profile.webp"
+							class="p-about__image"
+							alt=""
+						/>
+						<figcaption class="p-about__figcaption">
+							<h3>WEBデザイナー・WEBディベロッパー</h3>
+							<p>
+								2020年3月に大学を卒業。4月からWeb系企業に入社予定も、新型コロナウイルスにより2か月の入社日延期。5月末ようやく開始した試用研修3日目で内定取り消しになる。同年8月から派遣社員としてWEB系のコーディング業務に従事。2021年11月より株式会社エス・エム・エスにて正社員WEBデザイナーとして就業開始する。
+							</p>
+							<p>
+								デザインからコーディングまで一貫した業務が可能。このポートフォリオサイトも自身でデザイン・制作した。
+							</p>
+						</figcaption>
 					</figure>
 				</div>
 			</section>
 			<!-- /.p-about -->
 
 			<!-- .p-contact -->
-			<section class="p-contact c-section">
+			<section id="contact" class="p-contact c-section">
 				<div class="c-section__inner">
-					<h2 class="c-section__title"></h2>
-					<p class="c-section__lead"></p>
+					<h2 class="c-section__title">contact</h2>
+					<p class="c-section__lead">
+						お問合わせはTwitterやメールからご連絡ください。
+					</p>
+					<ul class="p-contact__lists">
+						<li class="p-contact__list">
+							<a href=""></a>
+						</li>
+						<li class="p-contact__list">
+							<a href=""></a>
+						</li>
+					</ul>
 					<div class="p-contact__mail">
-						<a href=""></a>
+						<a href="">traveler20.site@gmail.com</a>
 					</div>
 				</div>
 			</section>
 			<!-- /.p-contact -->
 		</main>
-		<!-- /.l-main -->
+		<!-- /main -->
 
 		<!-- .l-footer -->
 		<footer class="l-footer">
-			<ul class="l-footer__list">
-				<li></li>
-				<li></li>
-			</ul>
+			<small class="l-footer__copy">©&nbsp;2020&nbsp;traveler20.</small>
 		</footer>
 		<!-- /.l-footer -->
 	</body>

@@ -1,0 +1,13 @@
+/* p-contact
+--------------------------- */
+@use "./../../foundation/system" as s;
+
+.p-contact {
+	&__mail {
+		text-align: center;
+	}
+	@include s.breakpoint(tablet) {
+	}
+	@include s.breakpoint(pc) {
+	}
+}

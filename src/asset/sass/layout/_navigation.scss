@@ -1,0 +1,27 @@
+/* l-navigation
+--------------------------- */
+@use "./../foundation/system" as s;
+
+.l-navigation {
+	position: sticky;
+	top: 0;
+	background-color: #333;
+	z-index: 1;
+	&__lists {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	&__list {
+		padding: 5px 32px;
+		a {
+			color: #fff;
+		}
+	}
+
+	@include s.breakpoint(tablet) {
+	}
+	@include s.breakpoint(pc) {
+	}
+}

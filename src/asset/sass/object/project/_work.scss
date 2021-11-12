@@ -1,0 +1,22 @@
+/* p-work
+--------------------------- */
+@use "./../../foundation/system" as s;
+
+.p-work {
+	&__lists {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 16px;
+	}
+	&__list {
+		flex: 40%;
+	}
+	@include s.breakpoint(tablet) {
+		&__list {
+			flex: 32%;
+		}
+	}
+	@include s.breakpoint(pc) {
+	}
+}
