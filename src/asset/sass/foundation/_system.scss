@@ -14,12 +14,6 @@ $transition-base: all 0.4s;
 
 // font system
 // ---------------------
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
-@mixin railway($weight: bold) {
-	font-family: "Raleway", sans-serif;
-	font-weight: $weight;
-}
-
 @mixin garamond($weight: bold) {
 	font-family: "Cormorant Garamond", serif;
 	font-weight: $weight;

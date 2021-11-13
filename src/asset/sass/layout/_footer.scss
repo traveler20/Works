@@ -3,12 +3,26 @@
 @use "./../foundation/system" as s;
 
 .l-footer {
-	background: s.$c-base-dark;
-	padding: 30px;
 	text-align: center;
-	&__copy {
+
+	&__scroll {
+		display: block;
+		background-color: s.$c-accent;
+		color: s.$c-body;
 		font-size: 12px;
+		padding: 6px;
+		&:hover {
+			text-decoration: none;
+			opacity: 0.7;
+		}
+	}
+	&__inner {
+		background: s.$c-base-dark;
+		padding: 30px;
+	}
+	&__copy {
 		color: s.$c-base-right;
+		font-size: 12px;
 	}
 
 	@include s.breakpoint(tablet) {

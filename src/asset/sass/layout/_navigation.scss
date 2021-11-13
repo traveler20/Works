@@ -14,14 +14,18 @@
 		justify-content: center;
 	}
 	&__list {
-		padding: 5px 32px;
+		padding: 0px 32px;
 		a {
 			color: s.$c-body;
+			font-size: 14px;
 			@include s.garamond(bold);
 		}
 	}
 
 	@include s.breakpoint(tablet) {
+		&__list {
+			padding: 10px 32px;
+		}
 	}
 	@include s.breakpoint(pc) {
 	}
