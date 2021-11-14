@@ -3,6 +3,19 @@
 @use "./../../foundation/system" as s;
 
 .p-contact {
+	&__lists {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+		margin-bottom: 32px;
+	}
+	&__list {
+		width: 56px;
+		background-color: s.$c-body;
+		border-radius: 50%;
+	}
+
 	&__mail {
 		text-align: center;
 	}

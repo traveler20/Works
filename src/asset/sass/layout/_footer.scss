@@ -11,8 +11,11 @@
 		color: s.$c-body;
 		font-size: 12px;
 		padding: 6px;
+		// デフォルトのaタグのアクションを消す
+		&:after {
+			height: 0;
+		}
 		&:hover {
-			text-decoration: none;
 			opacity: 0.7;
 		}
 	}

@@ -19,6 +19,24 @@
 			color: s.$c-body;
 			font-size: 14px;
 			@include s.garamond(bold);
+			position: relative;
+			&::after {
+				position: absolute;
+				bottom: -3px;
+				left: 50%;
+				content: "";
+				width: 0;
+				height: 1px;
+				background-color: s.$c-body;
+				transition: 0.4s;
+				transform: translateX(-50%);
+			}
+			&:hover {
+				text-decoration: none;
+				&:after {
+					width: 100%;
+				}
+			}
 		}
 	}
 
