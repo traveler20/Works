@@ -27,13 +27,16 @@
 		bottom: 0;
 		right: 0;
 		opacity: 0;
-		background-color: rgba($color: s.$c-body, $alpha: 0.7);
+		background-color: rgba($color: s.$c-base, $alpha: 0.8);
 		transition: all 0.4s ease;
 		cursor: pointer;
 
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 32px;
 		font-weight: bold;
-		text-align: center;
-		color: s.$c-base;
+		color: s.$c-body;
 	}
 
 	&__modal {
@@ -59,56 +62,56 @@
 		right: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(0, 0, 0, 0.7);
+		background: rgba($color: s.$c-base-right, $alpha: 0.7);
 	}
 	&__window {
 		width: 80vw;
 		max-width: 1000px;
-		height: 80vh;
+		// height: 80vh;
 		margin: auto;
-		padding: 15px;
-		background: #fff;
+		padding: 14px;
+		background: s.$c-base;
 		z-index: 1;
 		overflow-y: hidden;
 	}
 	&__dl {
-		color: s.$c-base;
+		color: s.$c-body;
+		font-size: 1.4rem;
 		text-align: center;
 		margin: 0 auto;
-		width: 80%;
+		width: 100%;
 		height: 80%;
+		h3 {
+			font-weight: bold;
+			margin-top: 10px;
+		}
 	}
 	&__close {
-		z-index: 300;
 		position: absolute;
-		top: 0;
-		right: 10px;
-		color: #808080;
-		font-size: 1.5rem;
+		top: 10px;
+		right: 16px;
+		color: s.$c-base-right;
+		font-size: 1.8rem;
 		cursor: pointer;
 		&:hover {
-			color: #000;
+			color: s.$c-base;
 			transition: all 0.5s;
 		}
 	}
-	html.is_open,
-	body.is_open {
-		overflow: hidden;
-	}
 	&__modal.is_open {
-		animation: p-work__modal_open 0.5s ease forwards;
+		animation: modal_open 0.5s ease forwards;
 	}
 	&__modal.is_open .p-work__window {
-		animation: p-work__window_open 0.5s ease forwards;
+		animation: window_open 0.5s ease forwards;
 	}
 	&__modal.is_close {
-		animation: p-work__modal_close 0.5s ease forwards;
+		animation: modal_close 0.5s ease forwards;
 	}
 	&__modal.is_close .p-work__window {
-		animation: p-work__window_close 0.5s ease forwards;
+		animation: window_close 0.5s ease forwards;
 	}
 
-	@keyframes p-work__modal_open {
+	@keyframes modal_open {
 		0% {
 			opacity: 0;
 		}
@@ -117,7 +120,7 @@
 			z-index: 300;
 		}
 	}
-	@keyframes p-work__window_open {
+	@keyframes window_open {
 		0% {
 			opacity: 0;
 			transform: translateY(-30px);
@@ -127,7 +130,7 @@
 			transform: translateY(0);
 		}
 	}
-	@keyframes p-work__modal_close {
+	@keyframes modal_close {
 		0% {
 			z-index: 300;
 			opacity: 1;
@@ -136,7 +139,7 @@
 			opacity: 0;
 		}
 	}
-	@keyframes p-work__window_close {
+	@keyframes window_close {
 		0% {
 			opacity: 1;
 			transform: translateY(0);
@@ -150,6 +153,9 @@
 	@include s.breakpoint(tablet) {
 		&__list {
 			flex: 32%;
+		}
+		&__dl {
+			width: 80%;
 		}
 	}
 	@include s.breakpoint(pc) {
