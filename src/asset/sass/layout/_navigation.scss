@@ -7,6 +7,9 @@
 	top: 0;
 	background-color: s.$c-base;
 	z-index: 1;
+	&.is-shadow {
+		box-shadow: 0px 3px 2px 0px rgba($color: s.$c-base-right, $alpha: 0.2);
+	}
 	&__lists {
 		display: flex;
 		flex-wrap: wrap;
