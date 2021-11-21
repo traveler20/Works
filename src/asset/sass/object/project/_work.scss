@@ -13,6 +13,7 @@
 		overflow-x: scroll;
 		&::-webkit-scrollbar {
 			width: 10px;
+			height: 8px;
 		}
 		&::-webkit-scrollbar-track {
 			background: s.$c-body;
@@ -21,7 +22,7 @@
 			box-shadow: inset 0 0 1px s.$c-base-right;
 		}
 		&::-webkit-scrollbar-thumb {
-			background: #ccc;
+			background: s.$c-base-right;
 			border-radius: 10px;
 			box-shadow: none;
 		}
