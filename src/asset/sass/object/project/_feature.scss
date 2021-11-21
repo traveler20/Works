@@ -9,6 +9,10 @@
 		align-items: center;
 		justify-content: center;
 		gap: 24px;
+		+ .p-feature__figure {
+			flex-direction: row-reverse;
+			margin-top: 56px;
+		}
 	}
 	&__image {
 		width: 100%;
