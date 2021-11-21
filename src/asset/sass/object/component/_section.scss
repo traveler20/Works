@@ -25,6 +25,15 @@
 		margin: 0 auto 12px;
 		@include s.garamond(bold);
 	}
+	&__subtitle {
+		font-size: 2rem;
+		font-weight: bold;
+		width: 290px;
+		letter-spacing: 2px;
+		margin: 0 0 20px 0;
+		border-bottom: solid 2px s.$c-body;
+		@include s.garamond(bold);
+	}
 	&__lead {
 		display: table;
 		margin: 0 auto 44px;
