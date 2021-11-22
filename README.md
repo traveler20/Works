@@ -24,12 +24,13 @@ https://traveler20.site/portfolio/
 
 ## 基本情報
 
-| key     | value                                                 |
-| ------- | ----------------------------------------------------- |
-| 名前    | traveler20                                            |
-| 場所    | 東京都                                                |
-| Twitter | [@traveler20site](https://twitter.com/traveler20site) |
-| HP      | [ポートフォリオ](https://traveler20.site/)            |
+| key      | value                                                 |
+| -------- | ----------------------------------------------------- |
+| name     | traveler20                                            |
+| place    | Tokyo                                                 |
+| job      | WEB Designer. WEB Developer.                          |
+| Twitter  | [@traveler20site](https://twitter.com/traveler20site) |
+| Web site | [traveler20.site](https://traveler20.site/)           |
 
 ## 概要
 
