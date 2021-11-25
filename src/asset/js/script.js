@@ -7,9 +7,10 @@ window.onload = function () {
 	document.getElementById("js-header").classList.add("is-show");
 };
 
-// navigation shadow
-const naviShadow = function () {
+// navigation shadow & scroll button
+const scrollIn = function () {
 	const navigation = document.getElementsByClassName("js-navShadow");
+	const scrollbutton = document.getElementsByClassName("js-scrollButton");
 	const position = Math.floor(window.innerHeight * 0.01);
 
 	for (let i = 0; i < navigation.length; i++) {
@@ -17,12 +18,14 @@ const naviShadow = function () {
 
 		if (offsetTop < position) {
 			navigation[i].classList.add("is-shadow");
+			scrollbutton[i].classList.add("is-show");
 		} else {
 			navigation[i].classList.remove("is-shadow");
+			scrollbutton[i].classList.remove("is-show");
 		}
 	}
 };
-window.addEventListener("scroll", naviShadow, false);
+window.addEventListener("scroll", scrollIn, false);
 
 // modal open
 const modalWrapOpen = function (e) {
