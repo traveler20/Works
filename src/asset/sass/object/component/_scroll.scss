@@ -5,8 +5,8 @@
 .c-scroll {
 	box-sizing: border-box;
 	display: block;
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	border: solid 3px s.$c-body;
 	border-radius: 50%;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
@@ -29,8 +29,8 @@
 		z-index: 10;
 		top: 55%;
 		left: 50%;
-		width: 20px;
-		height: 20px;
+		width: 16px;
+		height: 16px;
 		border-style: solid;
 		border-color: s.$c-body;
 		border-width: 3px 0 0 3px;
@@ -63,6 +63,8 @@
 	}
 
 	@include s.breakpoint(tablet) {
+		width: 70px;
+		height: 70px;
 	}
 	@include s.breakpoint(pc) {
 	}
