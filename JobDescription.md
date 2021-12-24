@@ -12,54 +12,77 @@
 
 ## 概要
 
-大手印刷会社の印刷 EC サイトのサイトコーディング、フロントエンド実装、アイコン・バナー制作と幅広い WEB デザイン業務に従事。
+派遣社員として印刷会社の印刷 EC サイトのサイトコーディング業務に従事した後、介護系 SaaS 事業の 正社員 WEB デザイナーとして就業を開始。  
+また、副業としてスタートアップ企業など複数事業にてデザイン・コーディング業務に業務委託として参画している。
 
-Illustrator によるアイコン制作から新規サイトのコーディング、PHP によるタイマー設定まで WEB サイト制作・運用の一貫した工程を経験している。
+主な業務経験としては以下。
 
-- デザイン・コーディング業務を経験。
-- GoogleAnalytics を活用したクリック率解析などの実装も経験。
-- SEO 対策の実施、SEO 解析も経験。
+- Figma を用いた WEB サイトデザイン
+- HTML/CSS/JavaScript を用いたコーディング
+- WordPress の構築・運用・保守業務
+- GoogleAnalytics を活用した SEO 対策やクリック率解析
 
 ## スキル
 
-### 言語
+### 言語/その他技術
 
 - HTML
 - CSS
+- Dart Sass
 - JavaScript
 - PHP
-
-### フレームワーク等
-
-- bootstrap
+- WordPress
+- gulp
+- FLOCSS（CSS 設計）
 - tailwind css
+- bootstrap
 - jQuery
 
-### SaaS/PaaS/その他
+### 使用ツール
 
-- subversion
-- winSCP
-- winMerge
-- teraterm
-- Apache
+- VisualStudioCode
+- Figma
 - Adobe illustrator
+- Adobe photoshop
+- Adobe XD
 - GoogleAnalytics
 - GoogleSearchConsole
-- GoogleAdsense
 
 ## バリューを発揮しやすい業務
 
+- Figma/Adobe XD を用いた WEB サイトデザイン
 - HTML/CSS/JavaScript によるコーディング
-- Adobe illustrator を用いたアイコン等の制作
+- WordPress の構築・運用
 
 ## 主な業務経歴
 
+### スタートアップ企業等、複数企業・事業での業務委託（副業）
+
+#### 【プロジェクト概要】
+
+複数企業にてランディングページのデザイン・コーディング、WordPress の運用業務に従事。
+
+#### 【担当業務】
+
+デザインからコーディング、WordPress の運用までを担当。具体的には下記。
+
+- Figma を用いたランディングページデザイン
+- HTML/CSS/JavaScript を用いたサイトコーディング
+- ランディングページの WordPress/HubSpot 組み込み
+- WordPress を用いた WEB サイトの保守・運用
+
+#### 【発揮したバリュー】
+
+ヒアリングからデザイン・コーディング、WordPress の組み込み、WordPress の保守・運用と上流から一貫した業務を実施したことで、スムーズに業務を遂行させた。
+
 ### 大手印刷会社 EC サイトのコーディング・運用【HTML/CSS/JavaScript/jQuery/PHP】(2020 年〜2021 年)
 
-**【プロジェクト概要】**
+#### 【プロジェクト概要】
+
 大手印刷会社 EC サイトのコーディング・運用等を担当
 
-**【担当業務】**
+#### 【担当業務】
+
 新規ページのコーディングや既存ページの改善など。具体的には下記。
 
 - HTML/CSS/JavaScript を用いたサイトコーディング
@@ -67,5 +90,6 @@ Illustrator によるアイコン制作から新規サイトのコーディン�
 - GoogleAnalytics によるクリック率解析
 - アイコン等の作成
 
-**【発揮したバリュー】**
+#### 【発揮したバリュー】
+
 コーディングの際、同時に GoogleAnalytics を運用しクリック率の解析などを行い、コーディングしたサイトの分析まで実施。クリック率の改善やサイトの UX 改善につなげた。
