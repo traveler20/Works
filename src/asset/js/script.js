@@ -59,3 +59,6 @@ Array.from(document.querySelectorAll(".p-work__mask")).forEach(
 		modalCloseElement.addEventListener("click", modalCloseAction);
 	}
 );
+
+// submit
+let submitted = false;
