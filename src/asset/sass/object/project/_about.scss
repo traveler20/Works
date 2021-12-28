@@ -25,6 +25,18 @@
 			margin-top: 20px;
 		}
 	}
+	&__links {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 16px;
+		margin-top: 20px;
+	}
+	&__link {
+		width: 40px;
+		background-color: s.$c-body;
+		border-radius: 50%;
+	}
 
 	@include s.breakpoint(tablet) {
 	}
