@@ -57,12 +57,11 @@
 		&[data-rate="0"]:after {
 			width: 0%;
 		}
-		&--ten {
-			@extend .p-skill__rate;
-			&:before,
-			&:after {
-				content: "★★★★★★★★★★";
-			}
+	}
+	&__list:last-of-type .p-skill__rate {
+		&:before,
+		&:after {
+			content: "★★★★★★★★★★";
 		}
 	}
 
